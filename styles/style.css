@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color: darkblue;
+    
+}
+
+html, body{
+    margin:0;
+    padding:0;
+    min-height:100vh;
+}
+
+.main-container {
+    display: flex;
+    height: calc(100vh - 80px);
+    
+}
+
+#secList {
+    flex: 2;
+    background-color: rgb(56, 158, 161);
+}
+
+#secForm {
+    flex:1;
+    background-color: rgb(149, 175, 88);
+}
+
+footer {
+    background-color: rgb(136, 136, 211);
+    height:30px;
+}
+
+nav{
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.my-container{
+    margin-bottom: 10px;
+}
+
+.topIcon{
+    font-size: 30px;
+    color:gold;
+    cursor: pointer;
+}
